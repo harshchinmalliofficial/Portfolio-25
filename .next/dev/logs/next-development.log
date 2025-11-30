@@ -1,0 +1,2553 @@
+[00:00:00.947] Server  LOG     ⚠ Console Ninja Turbopack support is a PRO feature, currently available to community users while in preview
+[00:00:01.166] Server  LOG      ✓ Ready in 593ms
+[00:00:04.600] Server  LOG      ○ Compiling /achievements ...
+[00:00:05.572] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:00:05.572] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:05.572] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/achievements","route":"/achievements"}
+[00:00:05.572] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/achievements","route":"/achievements"}
+[00:00:05.572] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/achievements color: rgb(120, 120, 120) color: inherit {"dp":"/achievements","o":"http://localhost:3000/achievements","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484042505}
+[00:00:05.572] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/achievements color: rgb(120, 120, 120) color: inherit {"dp":"/achievements","o":"http://localhost:3000/achievements","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484042505}
+[00:00:56.265] Server  LOG      ✓ Compiled in 209ms
+[00:00:56.459] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'toString')
+[00:00:56.503] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'toString')
+[00:00:57.484] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'toString')
+[00:01:09.141] Server  LOG      ✓ Compiled in 187ms
+[00:01:10.970] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:01:10.970] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:10.970] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/achievements","route":"/achievements"}
+[00:01:10.970] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/achievements","route":"/achievements"}
+[00:01:10.970] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/achievements color: rgb(120, 120, 120) color: inherit {"dp":"/achievements","o":"http://localhost:3000/achievements","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484107617}
+[00:01:10.970] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/achievements color: rgb(120, 120, 120) color: inherit {"dp":"/achievements","o":"http://localhost:3000/achievements","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484107617}
+[00:01:12.740] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:01:12.741] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:12.741] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/achievements","route":"/achievements"}
+[00:01:12.741] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/achievements","route":"/achievements"}
+[00:01:12.741] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/achievements color: rgb(120, 120, 120) color: inherit {"dp":"/achievements","o":"http://localhost:3000/achievements","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484109670}
+[00:01:12.741] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/achievements color: rgb(120, 120, 120) color: inherit {"dp":"/achievements","o":"http://localhost:3000/achievements","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484109670}
+[00:01:15.786] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:15.786] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484112716}
+[00:01:23.317] Server  LOG      ✓ Compiled in 221ms
+[00:01:27.549] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:01:27.549] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:27.549] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:27.549] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:27.549] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484124485}
+[00:01:27.549] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484124485}
+[00:01:48.679] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:01:48.684] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:48.684] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:48.684] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:48.684] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484145611}
+[00:01:48.684] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484145611}
+[00:01:52.683] Server  LOG      ✓ Compiled in 393ms
+[00:02:12.136] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:02:12.136] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:12.136] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:12.136] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:12.136] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484169072}
+[00:02:12.136] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484169073}
+[00:02:13.079] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:02:13.479] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:02:13.479] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:13.479] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:13.479] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:13.479] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484170415}
+[00:02:13.479] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484170415}
+[00:02:32.663] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:02:32.663] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:32.664] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:32.664] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:32.664] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484189597}
+[00:02:32.664] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484189597}
+[00:02:33.822] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:02:34.168] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:02:34.168] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:34.168] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:34.168] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:34.168] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484191104}
+[00:02:34.168] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484191104}
+[00:02:46.445] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:02:46.446] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484203378}
+[00:03:03.595] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:03:03.595] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:03.595] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/job-profile","route":"/job-profile"}
+[00:03:03.595] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/job-profile","route":"/job-profile"}
+[00:03:03.595] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484220529}
+[00:03:03.595] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484220529}
+[00:03:05.430] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:03:05.430] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:05.430] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/job-profile","route":"/job-profile"}
+[00:03:05.430] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/job-profile","route":"/job-profile"}
+[00:03:05.430] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484222363}
+[00:03:05.430] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484222363}
+[00:03:07.066] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:03:07.066] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484223999}
+[00:03:08.897] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484225828}
+[00:03:51.711] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484268642}
+[00:04:52.262] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484329193}
+[00:13:33.361] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484850275}
+[00:14:19.597] Server  LOG      ✓ Compiled in 269ms
+[00:14:23.371] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:14:23.372] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:23.373] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:14:23.373] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:14:23.373] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484900146}
+[00:14:23.373] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764484900146}
+[00:17:22.510] Server  LOG      ✓ Compiled in 180ms
+[00:17:27.444] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:17:27.444] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:27.444] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:17:27.444] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:17:27.444] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764485084354}
+[00:17:27.444] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764485084354}
+[00:19:13.920] Server  LOG      ✓ Compiled in 170ms
+[00:20:31.370] Server  LOG      ✓ Compiled in 154ms
+[00:21:22.721] Server  LOG      ✓ Compiled in 88ms
+[00:30:32.382] Server  LOG      ✓ Compiled in 216ms
+[00:30:37.361] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:30:37.460] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:37.460] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:30:37.460] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:30:37.460] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764485874356}
+[00:30:37.460] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764485874356}
+[00:34:38.632] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:34:38.632] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764486115497}
+[00:34:43.863] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764486120726}
+[00:35:33.005] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764486169869}
+[00:52:24.176] Server  LOG      ✓ Compiled in 401ms
+[00:52:42.033] Server  LOG      ✓ Compiled in 92ms
+[00:53:23.078] Server  LOG      ✓ Compiled in 152ms
+[00:54:16.440] Server  LOG      ✓ Compiled in 117ms
+[00:54:18.883] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:54:18.884] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:54:18.884] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:54:18.884] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:54:18.884] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487295744}
+[00:54:18.884] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487295744}
+[00:54:23.495] Server  LOG      ✓ Compiled in 107ms
+[00:54:39.826] Server  LOG      ✓ Compiled in 94ms
+[00:54:41.828] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:54:41.828] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:54:41.828] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:54:41.828] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:54:41.828] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487318691}
+[00:54:41.828] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487318691}
+[00:55:48.920] Server  LOG      ✓ Compiled in 488ms
+[00:56:02.243] Server  LOG      ✓ Compiled in 60ms
+[00:56:04.674] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:56:04.674] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:56:04.674] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:56:04.674] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:56:04.674] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487401535}
+[00:56:04.674] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487401535}
+[00:56:21.552] Server  LOG      ✓ Compiled in 103ms
+[00:56:26.792] Server  LOG      ✓ Compiled in 73ms
+[00:56:38.324] Server  LOG      ✓ Compiled in 77ms
+[00:56:40.566] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:56:40.566] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:56:40.566] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:56:40.566] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:56:40.566] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487437482}
+[00:56:40.566] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487437482}
+[00:56:54.461] Server  LOG      ✓ Compiled in 87ms
+[00:56:58.183] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:56:58.183] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:56:58.183] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:56:58.183] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:56:58.183] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487455044}
+[00:56:58.183] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487455044}
+[00:57:59.050] Server  LOG      ✓ Compiled in 157ms
+[00:58:00.825] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:58:00.825] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:58:00.825] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:58:00.825] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:58:00.825] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487517668}
+[00:58:00.825] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487517668}
+[00:58:11.992] Server  LOG      ✓ Compiled in 86ms
+[00:58:13.949] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:58:13.949] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:58:13.949] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:58:13.949] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:58:13.949] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487530802}
+[00:58:13.949] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487530802}
+[00:58:47.211] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:58:47.211] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:58:47.211] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:58:47.211] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:58:47.211] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487564069}
+[00:58:47.211] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487564069}
+[00:59:34.975] Server  LOG      ✓ Compiled in 85ms
+[00:59:38.762] Server  LOG      ✓ Compiled in 74ms
+[00:59:42.984] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[00:59:42.984] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:59:42.984] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:59:42.984] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[00:59:42.984] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487619839}
+[00:59:42.984] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487619840}
+[01:00:16.405] Server  LOG      ✓ Compiled in 85ms
+[01:00:20.539] Server  LOG      ✓ Compiled in 81ms
+[01:00:22.163] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:00:22.270] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:00:22.270] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[01:00:22.270] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[01:00:22.270] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487659126}
+[01:00:22.270] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487659126}
+[01:01:04.829] Server  LOG      ✓ Compiled in 77ms
+[01:01:07.236] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:01:07.236] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:01:07.236] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[01:01:07.236] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[01:01:07.236] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487704090}
+[01:01:07.236] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487704090}
+[01:01:16.623] Server  LOG      ✓ Compiled in 71ms
+[01:02:49.923] Server  LOG      ✓ Compiled in 155ms
+[01:02:52.811] Server  LOG      ✓ Compiled in 52ms
+[01:02:56.304] Server  LOG      ✓ Compiled in 46ms
+[01:02:59.117] Server  LOG      ✓ Compiled in 39ms
+[01:03:03.134] Server  LOG      ✓ Compiled in 37ms
+[01:03:12.442] Server  LOG      ✓ Compiled in 64ms
+[01:03:16.023] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:03:16.023] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:03:16.023] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[01:03:16.023] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[01:03:16.023] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487832875}
+[01:03:16.023] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764487832875}
+[01:05:13.336] Server  LOG      ✓ Compiled in 136ms
+[01:25:02.412] Server  LOG      ✓ Compiled in 238ms
+[01:25:05.432] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:25:05.432] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:25:05.432] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[01:25:05.432] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[01:25:05.432] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489142197}
+[01:25:05.432] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489142197}
+[01:25:41.213] Server  LOG      ✓ Compiled in 122ms
+[01:26:44.195] Server  LOG      ✓ Compiled in 92ms
+[01:26:45.485] Browser ERROR   uncaughtError: ReferenceError: link is not defined
+[01:27:01.974] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:27:01.992] Server  LOG      ✓ Compiled in 81ms
+[01:27:03.489] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:27:03.489] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:27:03.489] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[01:27:03.489] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/certificates","route":"/certificates"}
+[01:27:03.489] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489259624}
+[01:27:03.489] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489259624}
+[01:27:33.140] Server  LOG      ✓ Compiled in 92ms
+[01:28:17.122] Server  LOG      ✓ Compiled in 83ms
+[01:28:22.136] Server  LOG      ✓ Compiled in 89ms
+[01:28:30.629] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:28:30.716] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:28:30.716] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:28:30.716] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:28:30.716] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489347520}
+[01:28:30.716] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489347520}
+[01:30:15.448] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:30:15.448] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489452245}
+[01:30:18.310] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489455109}
+[01:30:27.148] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489463948}
+[01:30:40.451] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489477248}
+[01:30:45.390] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:30:45.391] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:30:45.391] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/projects","route":"/projects"}
+[01:30:45.391] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/projects","route":"/projects"}
+[01:30:45.391] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489482191}
+[01:30:45.391] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489482191}
+[01:30:47.572] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:30:47.572] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:30:47.572] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/projects","route":"/projects"}
+[01:30:47.572] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/projects","route":"/projects"}
+[01:30:47.572] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489484373}
+[01:30:47.572] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489484373}
+[01:32:26.131] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:32:26.131] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:32:26.131] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/projects","route":"/projects"}
+[01:32:26.131] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/projects","route":"/projects"}
+[01:32:26.131] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489582928}
+[01:32:26.131] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489582928}
+[01:32:27.247] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:32:27.247] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489584041}
+[01:32:28.194] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:32:28.194] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:32:28.194] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:32:28.194] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:32:28.194] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489585091}
+[01:32:28.194] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489585091}
+[01:32:29.355] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:32:29.355] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:32:29.355] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:32:29.355] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:32:29.355] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489586153}
+[01:32:29.355] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489586153}
+[01:33:02.191] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:33:02.191] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489618986}
+[01:33:58.070] Server  LOG      ✓ Compiled in 201ms
+[01:37:00.000] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489856813}
+[01:37:15.664] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489872473}
+[01:37:20.800] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/achievements color: rgb(120, 120, 120) color: inherit {"dp":"/achievements","o":"http://localhost:3000/achievements","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489877609}
+[01:37:29.613] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:37:29.613] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:37:29.613] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/achievements","route":"/achievements"}
+[01:37:29.613] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/achievements","route":"/achievements"}
+[01:37:29.613] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/achievements color: rgb(120, 120, 120) color: inherit {"dp":"/achievements","o":"http://localhost:3000/achievements","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489886428}
+[01:37:29.613] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/achievements color: rgb(120, 120, 120) color: inherit {"dp":"/achievements","o":"http://localhost:3000/achievements","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489886428}
+[01:38:48.361] Server  LOG      ✓ Compiled in 156ms
+[01:39:03.392] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:39:03.392] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764489980199}
+[01:41:20.170] Server  LOG      ✓ Compiled in 176ms
+[01:42:21.051] Server  LOG      ✓ Compiled in 287ms
+[01:42:52.941] Server  LOG      ✓ Compiled in 150ms
+[01:42:59.551] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:42:59.551] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:42:59.551] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:42:59.551] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:42:59.551] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#contact","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490216359}
+[01:42:59.551] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490216359}
+[01:43:01.849] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:43:04.319] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[01:43:04.319] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:43:04.319] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:43:04.319] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:43:04.319] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#contact","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490221127}
+[01:43:04.319] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490221127}
+[01:43:05.446] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:44:04.875] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490281680}
+[01:44:52.568] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490329372}
+[01:53:35.556] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490852347}
+[02:08:16.281] Server  LOG      ✓ Compiled in 403ms
+[02:08:24.219] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491740985}
+[02:08:30.107] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491746877}
+[02:08:38.778] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[02:08:38.779] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:08:38.779] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:08:38.779] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:08:38.779] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491755547}
+[02:08:38.779] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491755547}
+[02:09:29.762] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:09:29.762] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491806530}
+[02:09:30.749] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491807518}
+[02:09:31.444] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491808214}
+[02:09:33.135] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/achievements color: rgb(120, 120, 120) color: inherit {"dp":"/achievements","o":"http://localhost:3000/achievements","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491809903}
+[02:09:34.488] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/job-profile color: rgb(120, 120, 120) color: inherit {"dp":"/job-profile","o":"http://localhost:3000/job-profile","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491811256}
+[02:09:36.211] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491812979}
+[02:09:36.638] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/certificates color: rgb(120, 120, 120) color: inherit {"dp":"/certificates","o":"http://localhost:3000/certificates","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491813407}
+[02:09:37.029] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/achievements color: rgb(120, 120, 120) color: inherit {"dp":"/achievements","o":"http://localhost:3000/achievements","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491813798}
+[02:09:47.937] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491824705}
+[02:09:54.075] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <__next_root_layout_boundary__>
+      <SegmentViewNode type="layout" pagePath="/Desktop/p...">
+        <SegmentTrieNode>
+        <link>
+        <script>
+        <script>
+        <script>
+        <RootLayout>
+          <html lang="en" suppressHydrationWarning={true}>
+            <body className="font-sans ...">
+              <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true}>
+                <J attribute="class" defaultTheme="dark" enableSystem={true}>
+                  <V attribute="class" defaultTheme="dark" enableSystem={true}>
+                    <script>
+                    <Navbar>
+                      <nav className="sticky top...">
+                        <div className="max-w-6xl ...">
+                          <div className="flex items...">
+                            <LinkComponent>
+                            <div>
+                            <div className="hidden md:...">
+                              <button
+                                onClick={function toggleTheme}
+                                className="p-2 rounded-lg border border-border hover:bg-card transition-colors"
+                                aria-label="Toggle theme"
++                               title="Switch to light mode"
+-                               title="Switch to dark mode"
+                              >
+                                <svg
++                                 className="w-5 h-5 text-yellow-500"
+-                                 className="w-5 h-5 text-slate-700"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
++                                 <circle cx="12" cy="12" r="5">
+-                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z">
+                                  ...
+                              ...
+                            ...
+                    ...
+              ...
+
+[02:09:54.075] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:09:54.075] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/projects","route":"/projects"}
+[02:09:54.075] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/projects","route":"/projects"}
+[02:09:54.075] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491830845}
+[02:09:54.075] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491830845}
