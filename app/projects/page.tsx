@@ -24,7 +24,7 @@ export default function ProjectsPage() {
         "User profile management",
       ],
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS"],
-      link: "https://github.com",
+      link: "https://github.com/harshchinmalliofficial/BLOGTECH",
     },
     {
       id: 2,
@@ -42,13 +42,13 @@ export default function ProjectsPage() {
         "Community discussion forums",
       ],
       technologies: ["Next.js", "Express.js", "PostgreSQL", "Socket.io", "Redis", "Docker"],
-      link: "https://github.com",
+      link: "https://github.com/harshchinmalliofficial/CodeClub",
     },
     {
       id: 3,
       title: "GitHub Auto-Commit Extension",
-      description: "Browser extension that automates GitHub commits with intelligent message generation.",
-      shortDescription: "Chrome extension for automated GitHub commits",
+      description: "VS CODE extension that automates GitHub commits with intelligent message generation.",
+      shortDescription: "VS CODE extension for automated GitHub commits",
       image: "/github-automation-tool.jpg",
       tags: ["JavaScript", "GitHub API", "Chrome Extension"],
       features: [
@@ -59,8 +59,8 @@ export default function ProjectsPage() {
         "Commit history tracking",
         "Easy configuration",
       ],
-      technologies: ["JavaScript", "GitHub API", "Chrome Extension API", "Webpack"],
-      link: "https://github.com",
+      technologies: ["JavaScript", "GitHub API", "VS Extension API", "OctaKit.js", "Webpack"],
+      link: "https://github.com/harshchinmalliofficial/AUTO-COMMIT-EXTENSION",
     },
     {
       id: 4,
@@ -78,7 +78,7 @@ export default function ProjectsPage() {
         "Export capabilities",
       ],
       technologies: ["Python", "FastAPI", "LangChain", "OpenAI API", "PyPDF2", "Streamlit"],
-      link: "https://github.com",
+      link: "https://github.com/harshchinmalliofficial/PDF-CHATBOT",
     },
   ]
 

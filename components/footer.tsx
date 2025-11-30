@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 
 export default function Footer() {
   const socialLinks = [
-    { icon: "github", href: "https://github.com", label: "GitHub" },
+    { icon: "github", href: "https://github.com/harshchinmalliofficial", label: "GitHub" },
     { icon: "linkedin", href: "https://www.linkedin.com/in/harsh-chinmalli-1242b42b6/", label: "LinkedIn" },
     { icon: "youtube", href: "https://youtube.com", label: "YouTube" },
     { icon: "twitter", href: "https://twitter.com", label: "Twitter" },
