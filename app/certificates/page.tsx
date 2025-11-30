@@ -89,53 +89,53 @@ interface Certificate {
 
 const certificates: Certificate[] = [
   {
-    title: "Full Stack Web Development",
+    title: "VMWare, vSphere, vCenter Administration",
     platform: "Udemy",
     year: "2025",
     image: "/VMware.jpg", // Add your image path here
     link: "https://cognizant.udemy.com/certificate/UC-75414a6f-820b-4b2f-a1f3-6d678cd948f2/" // Optional: Add certificate verification link
   },
   {
-    title: "Advanced React & TypeScript",
+    title: "Computer Networking",
     platform: "Udemy",
     year: "2025",
     image: "/Networking.jpg",
-    link: "https://udemy.com/certificate/your-cert-id"
+    // link: "https://udemy.com/certificate/your-cert-id"
   },
   {
-    title: "AWS Certified Developer",
+    title: "SAN and NAS Storage",
     platform: "Udemy",
     year: "2025",
     image: "/SANANDNAS.jpg",
-    link: "https://aws.amazon.com/verification/your-cert-id"
+    // link: "https://aws.amazon.com/verification/your-cert-id"
   },
   {
-    title: "AWS Certified Developer",
+    title: "Windows Server 2022 Administration",
     platform: "Udemy",
     year: "2025",
     image: "/SQL.jpg",
-    link: "https://aws.amazon.com/verification/your-cert-id"
+    // link: "https://aws.amazon.com/verification/your-cert-id"
   },
   {
-    title: "AWS Certified Developer",
+    title: "Python For Beginners",
     platform: "Udemy",
     year: "2025",
     image: "/WindowsServer.jpg",
-    link: "https://aws.amazon.com/verification/your-cert-id"
+    // link: "https://aws.amazon.com/verification/your-cert-id"
   },
   {
-    title: "AWS Certified Developer",
+    title: "SQL server Administration",
     platform: "Udemy",
     year: "2025",
     image: "/Python.jpg",
-    link: "https://aws.amazon.com/verification/your-cert-id"
+    // link: "https://aws.amazon.com/verification/your-cert-id"
   },
   {
-    title: "AWS Certified Developer",
+    title: "ITIL Foundations",
     platform: "Udemy",
     year: "2025",
     image: "/ITIL.jpg",
-    link: "https://aws.amazon.com/verification/your-cert-id"
+    // link: "https://aws.amazon.com/verification/your-cert-id"
   },
 ]
 
